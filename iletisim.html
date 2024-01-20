@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   <!--menü kodları-->
+    <header>
+        <a href="#" id="logo">
+            CEM OZAN ÖZENBOY
+        </a>
+        <ul class="navlist">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="yeteneklerim.html">Projelerim</a></li>
+            <li><a href="Hakkimda.html">Hakkımda</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+            <li><a href="#"><svg width="20" height="44" viewBox="0 0 20 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="10.5" y1="10" x2="10.5" y2="34" stroke="#F8F7F9"/>
+                </svg>
+                </a></li>
+            <li><a href="#"><iconify-icon id="menü-icon" icon="mdi:instagram"></iconify-icon></a></li>
+            <li><a href="#"><iconify-icon id="menü-icon" icon="mdi:twitter"></iconify-icon></a></li>
+        </ul>
+    </header>
+    <!--Main kodları-->
+    <section class=" iletisim-kutu">
+        <div class="form">
+             
+            <form action="#">
+                <form action="" method="get" class="form-kutu">
+                    <h1 style="text-align: center;margin-bottom: 20px;">İletişim</h1>
+                    <div class="form-kutu">
+                      <label for="isim">İsim Giriniz :</label>
+                      <input type="text" name="name" id="name" required />
+                    </div>
+                    <div class="form-kutu">
+                      <label for="email">E Posta Giriniz :</label>
+                      <input type="email" name="email" id="email" required />
+                    </div>
+                    <div class="form-kutu">
+                        <label for="email">Mesajınız</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                      </div>
+                    <div class="form-kutu">
+                      <input type="submit" value="Gönder" />
+                    </div>
+                  </form>                  
+            </form>
+        </div> 
+    </section>
+</body>
+</html>
